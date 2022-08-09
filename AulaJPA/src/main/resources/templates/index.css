@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oleo+Script+Swash+Caps&family=Poppins&family=Righteous&display=swap');
+
+
+#fundo-biblioteca {
+    background: url(./img/estante.jpg);
+}
+
+.titulo-biblioteca{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin: 25px;
+    
+    font-size: 55px;
+}
+
+#faixa-biblioteca {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 100%;
+}
+
+
+#direcao {
+    flex-direction: column;
+}
+
+.foto-livrinhos {
+    width: 250px;
+    height: 190px;
+    
+}
+
+.titulo-bem-vindo {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(25, 25, 233, 0.897);
+}
+
+.subtitulo-bem-vindo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgba(25, 25, 233, 0.897);
+    
+}
+
+#fundo-livros {
+    background: url(./img/fundo-livro2.jpg);
+    margin-top: 25px;
+}
+
+.cadastro-index , .consulta-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    color:black;
+    font-size: 25px;
+    margin: 25px;
+    background: rgba(84, 84, 254, 0.9);
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.cadastro-index:hover , .consulta-index:hover {
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+    border: 3px solid blue;
+    background: rgba(59, 59, 207, 0.9);
+
+}
+
+.cadastro-index:focus , .consulta-index:focus {
+    text-decoration: underline;
+}
+

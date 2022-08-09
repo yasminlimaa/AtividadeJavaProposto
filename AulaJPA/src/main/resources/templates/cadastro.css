@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oleo+Script+Swash+Caps&family=Poppins&family=Righteous&display=swap');
+
+#fundo-cadastro {
+    background: url(./img/estante.jpg);
+}
+
+#faixa-cadastro{
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 100%;
+}
+
+.titulo-cadastro{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin: 25px;
+    font-size: 55px;
+}
+
+.direcao {
+    flex-direction: column;
+}
+
+.titulo-label {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 15px;
+
+}
+
+input {
+    border: 3px solid rgba(84, 84, 254);
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    
+}
+
+input::placeholder {
+    font-family: 'Poppins', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+.img-livros {
+    width: 245px;
+    height: 178px;
+  
+    margin: 0 auto;
+    
+}
+
+.faixa-label {
+    text-align: center;
+    background-color: rgba(84, 84, 254, 0.9);
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+
+#fundo-botao-cadastrar {
+    background: url(./img/fundo-livro2.jpg);
+    margin-top: 20px;
+}
+
+.botao-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    color:black;
+    font-size: 25px;
+    margin: 25px;
+    background: rgba(84, 84, 254, 0.9);
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.botao-cadastrar:hover {
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+    border: 3px solid blue;
+    background: rgba(59, 59, 207, 0.9);
+}
+
+.botao-cadastrar:focus {
+    text-decoration: underline;
+}

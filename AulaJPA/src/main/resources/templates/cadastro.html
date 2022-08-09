@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="cadastro.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	</head>
+	<body>
+        <div class="container-fluid">
+            <div class="row" >
+                <div class="col-12 d-flex justify-content-center align-items-center" id="fundo-cadastro" >
+                    <h1 class="titulo-cadastro" id="faixa-cadastro">Cadastro</h1>
+                </div>
+            </div>
+            <div class="row ">
+                    <form th:action="@{/cadastro}" method="post">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <div class="col-4 d-flex justify-content-center align-items-center direcao"  >
+                                <label for="idnome" class="titulo-label faixa-label">Nome</label>
+                                <img src="./img/livros.png" class="img-livros">
+                                <input id="idnome" type="text" placeholder="Nome do livro" name="nome"/>
+                            </div>
+                           
+                            <div class="col-4 d-flex justify-content-center  align-items-center direcao">
+                                <label for="idpaginas" class="titulo-label faixa-label">Páginas</label>
+                                <img src="./img/livros.png" class="img-livros">
+                                <input id="idpaginas" type="text" placeholder="Quantidade de páginas" name="paginas"/>
+                            </div>
+                            
+                            <div class="col-4 d-flex justify-content-center  align-items-center direcao">
+                                <label for="idgenero" class="titulo-label faixa-label">Gênero</label>
+                                <img src="./img/livros.png" class="img-livros">
+                                <input id="idgenero" type="text" placeholder="Gênero literário" name="genero"/>
+                            </div>
+                        </div>
+                        
+                    </form>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center align-items-center" id="fundo-botao-cadastrar">
+                    <a class="botao-cadastrar">Cadastro</a>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
